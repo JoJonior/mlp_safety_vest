@@ -14,6 +14,9 @@ O dataset apresenta desbalanceamento entre as classes, com aproximadamente 3 ima
 
 Para mitigar esse problema, foi aplicada uma técnica de data augmentation na classe minoritária (“Sem Colete”), gerando novas amostras a partir das imagens existentes. As transformações utilizadas incluem ajustes de brilho e inversões, aumentando a diversidade dos dados e contribuindo para um treinamento mais equilibrado.
 
+# Hiperparâmetros do Modelo
+<img width="440" height="260" alt="Configurações do Modelo" src="https://github.com/user-attachments/assets/ae422172-9ece-4beb-860e-054a58dc85cf" />
+
 # Treino
 ![Metricas de Treino](readmeImages/METRICS.png)
 # Matriz de Confusão
